@@ -7,6 +7,8 @@ Hey there!
 Your challenge is ready.
 Follow the instructions provided for this challenge and complete the required tasks in this repository.
 
+CI checks run on pull requests targeting `main` through the Python Tests and Python Coverage workflows.
+
 Make sure your work is committed and pushed to your repository before submission.
 
 Good luck!
