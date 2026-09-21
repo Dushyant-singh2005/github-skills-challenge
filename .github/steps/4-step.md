@@ -135,3 +135,17 @@ Let's add some more tests to increase coverage.
    <img width="500" alt="image" src="https://github.com/DebbieAUG/github-skills-challenge/blob/main/.github/images/merge-button-active.png?raw=true" />
 
 1. With full coverage, all tests passing, and the pull request merged, Mona will share a final review. Congrats, you are all done!
+
+### Task 4 completion
+
+The Python coverage workflow was validated successfully.
+
+- Workflow file: `.github/workflows/python-coverage.yml`
+- Trigger: pull requests targeting `main`
+- Coverage job: Python 3.13 on `ubuntu-latest`
+- Tests: 18 passed
+- Coverage: 100% for `src`
+- Coverage comment: configured with `py-cov-action/python-coverage-comment-action@v3`
+- Minimum coverage: 90%, enforced successfully
+
+No workflow step was removed because all required coverage steps executed successfully. The GitHub issue step was intentionally omitted.
