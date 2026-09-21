@@ -163,3 +163,13 @@ Indention of `.yml` files is important. If you are getting syntax errors, that m
 Finished workflow file: `.github/workflows/python-coverage.yml.example`
 
 </details>
+
+### Task 2: Test suite and coverage analysis
+
+1. The complete unit-test suite was executed with verbose output. All 18 tests passed.
+2. A coverage report was generated for the `src` directory.
+3. The verbose test configuration displayed each test and its result in the terminal.
+4. The coverage report was reviewed. The HTML report is available in `htmlcov/index.html`.
+5. The existing tests provide complete application coverage: `src` reached 100% coverage.
+
+The optional sixth step, adding a comment to a GitHub issue, was intentionally not performed.
